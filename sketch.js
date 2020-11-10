@@ -57,8 +57,8 @@ function setup() {
   ground.velocityY = -5;
   
   
- player1 = createSprite(500,180,400,10);
-  player1.scale = 0.6;
+ player1 = createSprite(width/2,height/2,400,10);
+  player1.scale = 0.2;
   player1.addImage("player",playerImage);
   
   
